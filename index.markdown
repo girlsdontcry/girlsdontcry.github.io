@@ -16,7 +16,7 @@ title: Home
     </div>
 	<div style="height: 1rem"></div>
 	<div class="intro-left">
-		My research spans machine learning and computer vision. In particular, I have strong interests in building reliable algorithms and toolkits that understand, fortify and democratize AI security with an eye towards scalability and practicality in real-world settings. 
+		My research spans machine learning, computer vision and natural language processing. In particular, I have strong interests in building reliable algorithms and toolkits that understand, fortify and democratize AI security with an eye towards scalability and practicality in real-world settings. 
 		<!-- focuses on adversarial machine learning. Currently, I am investigating how to defend the object detectors and object trackers against digital and physical attacks.  -->
 	</div>
 	<div style="height: 1rem"></div>
@@ -84,7 +84,7 @@ title: Home
 <div id="everything-else" class="l-middle">
 	<a href="{{ site.url }}/projects"><div>All Projects</div></a>
 	<a href="{{ site.url }}/blog"><div>Blogs</div></a>
-    <a href="{{ site.url }}/useful-tools"><div>Useful Tools</div></a>
+    <a href="{{ site.url }}/tools"><div>Tools</div></a>
 </div>
 
 

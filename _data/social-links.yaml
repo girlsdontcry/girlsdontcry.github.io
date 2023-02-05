@@ -15,7 +15,7 @@
   cv-group: 1
 
 - id: twitter
-  description: "@anthonypeng"
+  description: "@RealAnthonyPeng"
   color: "#1da1f2"
   class: "fab fa-twitter icon"
   url: https://twitter.com/RealAnthonyPeng
@@ -23,7 +23,7 @@
   cv-group: 2
 
 - id: github
-  description: "@anthonypeng"
+  description: "@ShengYun-Peng"
   color: "#6e5494"
   class: "fab fa-github icon"
   url: "https://github.com/ShengYun-Peng"
@@ -52,3 +52,10 @@
   class: "fa fa-address-card icon"
   url: "https://shengyun-peng.github.io/cv/"
   on-homepage: false
+
+- id: linkedin
+  description: "Linkedin"
+  color: "#0077b5"
+  class: "fab fa-linkedin-in icon"
+  url: "https://www.linkedin.com/in/shengyun-anthony-peng/"
+  on-homepage: true

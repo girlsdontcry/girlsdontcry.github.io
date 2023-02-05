@@ -1,5 +1,5 @@
 ## Hi there 👋
-I am Sheng-Yun (Anthony) Peng, a CS PhD student [@Gatech](https://www.cc.gatech.edu/)    
+I am ShengYun (Anthony) Peng, a CS PhD student [@Gatech](https://www.cc.gatech.edu/)    
 
 ### Quick start
 ``` bash
