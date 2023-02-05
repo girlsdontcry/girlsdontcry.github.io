@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Useful Tools
-permalink: /tools/
+permalink: tools/
 ---
 
 <time datetime="{{ site.time | date: "%B %-d, %Y" }}" class="post-date">Updated: {{ site.time | date: "%B %Y" }}</time>
