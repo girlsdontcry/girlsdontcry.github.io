@@ -145,6 +145,11 @@ $cover-width: 26.5px;
     margin-left: 0rem;
     width: auto;
   }
+
+  .cover-image {
+    width: 100%;
+    padding: 0.5rem;
+  }
 }
 
 @media (max-width: $mobile) {
@@ -162,5 +167,10 @@ $cover-width: 26.5px;
     margin-bottom: 0.5rem;
     margin-left: 0rem !important;
     margin-right: 0rem !important;
+  }
+
+  .cover-image {
+    width: 100%;
+    padding: 0.5rem;
   }
 }
