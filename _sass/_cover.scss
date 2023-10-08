@@ -141,6 +141,7 @@ $cover-width: 26.5px;
   }
 
   .cover {
+    flex-direction: column;
     margin-left: 0rem;
     width: auto;
   }
@@ -154,6 +155,7 @@ $cover-width: 26.5px;
   }
 
   .cover {
+    flex-direction: column;
     width: 100%;
     height: auto;
     margin-top: 0.5rem;
