@@ -12,8 +12,8 @@ jsarr:
 
 <div style="height: 1rem"></div>
 <div>
-	My research spans machine learning and computer vision. 
-	In particular, I have strong interests in building reliable algorithms and toolkits that understand, fortify and democratize AI security 
+	My research focuses on trustworthy machine learning, computer vision, and multimodal foundation models, with an emphasis on enhancing deep learning algorithm safety and explainability. I achieve this through methods of architecture modification, multi-task learning, and visualizing model behavior under adversarial attacks. My work also spans application domains such as multimodal systems, object detection, object tracking, table representation learning, and structural health monitoring.
+	I have strong interests in building reliable algorithms and toolkits that understand, fortify and democratize AI security 
 	with an eye towards scalability and practicality in real-world settings. 
 	I am highly self-disciplined, strong risk-taking and fearlessness about working on novel approaches. 
 	I got praise from my internship mentors about willingness to review technical approaches, receive and incorporate feedback, 
@@ -23,30 +23,20 @@ jsarr:
 
 <div class="cv-spacer"></div>
 
-<!-- <div>
-  I have collaborated with researchers, developers, and scientists while working at 
-        <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/gatech.svg"> Georgia Tech, 
-        <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/intel.svg"> Intel Lab, 
-        <img class="intro-logo" style="width: 24px" src="/images/ucla.svg"> UCLA Design Automation Lab, 
-        <img class="intro-logo" style="width: 24px;" src="/images/tongji.svg"> Tongji International Joint Research Lab of Earthquake Engineering,
-        <img class="intro-logo" style="width: 24px;" src="/images/aaii.png"> Shanghai Jiao Tong University Advanced Avionics and Intelligent Information Lab,
-        and <img class="intro-logo" style="width: 24px;" src="/images/fudan.svg"> Fudan University.
-</div> -->
-
 <div class="cv-spacer"></div>
 
 <div class="cv-image-links-wrapper">
 	<div class="cv-image-links">
 		{% for link in site.data.social-links %}
 			{% if link.cv-group == 1 %}
-				{% include social-link.html link=link %}
+				{% include cv-social-link.html link=link %}
 			{% endif %}
 		{% endfor %}
 	</div>
 	<div class="cv-image-links">
 		{% for link in site.data.social-links %}
 			{% if link.cv-group == 2 %}
-				{% include social-link.html link=link %}
+				{% include cv-social-link.html link=link %}
 			{% endif %}
 		{% endfor %}
 	</div>
@@ -87,14 +77,14 @@ jsarr:
 
 ## Publications
 
-### Selected: Latest & Greatest
+<!-- ### Selected: Latest & Greatest
 
 {% assign selectedBoolForBibtex = true %}
 
 {% assign selected = site.categories.papers | where: 'selected', true %}
 {% for pub in selected %}
 {% include cv/publication.html pub=pub %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- ### All Publications -->
 

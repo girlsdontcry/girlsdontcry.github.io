@@ -20,7 +20,7 @@ feature-description: Nilaksh Das, <b> ShengYun Peng </b>, Duen Horng Chau
 image: /images/featured/22-skelevision.png
 featured: true
 feature-order: 202208
-selected: true
+selected: false
 type: workshop
 code: https://github.com/nilakshdas/SkeleVision
 bibtex: |-

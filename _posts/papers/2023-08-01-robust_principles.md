@@ -8,7 +8,7 @@ authors:
   - ShengYun Peng
   - Weilin Xu
   - Cory Cornelius
-  - Mattew Hull
+  - Matthew Hull
   - Kevin Li
   - Rahul Duggal
   - Mansi Phute
@@ -22,7 +22,7 @@ type: paper
 figure: /images/papers/23_robust-principles.png
 caption: "We synthesize a suite of generalizable architectural design principles to robustify CNNs, spanning a network’s macro and micro designs: (A) optimal range for depth and width configurations, (B) preferring convolutional over patchify stem stage, and (C) robust residual block design by adopting squeeze and excitation blocks, and non-parametric smooth activation functions. The principles consis- tently and markedly improve AutoAttack accuracy for CIFAR-10, CIFAR-100, and ImageNet over the wide spectrum of AT methods, model parameters, and network design spaces."
 feature-title: "Robust Principles: Architectural Design Principles for Adversarially Robust CNNs"
-feature-description: <b> ShengYun Peng </b>, Weilin Xu, Cory Cornelius, Mattew Hull, Kevin Li, Rahul Duggal, Mansi Phute, Duen Horng Chau, Jason Martin
+feature-description: <b> ShengYun Peng </b>, Weilin Xu, Cory Cornelius, Matthew Hull, Kevin Li, Rahul Duggal, Mansi Phute, Duen Horng Chau, Jason Martin
 image: /images/featured/23_robust-principles.png
 featured: true
 feature-order: 202308
@@ -30,7 +30,7 @@ award: "#1 on RobustBench CIFAR-10 leaderboard"
 award-link: https://robustbench.github.io/#div_cifar10_Linf_heading
 code: https://github.com/poloclub/robust-principles
 selected: false
-type: misc
+type: conference
 doi: 
 bibtex: |-
 
