@@ -18,7 +18,7 @@ feature-title: SkeleVision&#58; Towards Adversarial Resiliency of Person Trackin
 feature-description: "Multi-task learning improves tracker robustness"
 image: /images/featured/22_eccv_skelevision.png
 featured: true
-feature-order: 5
+feature-order: 202208
 selected: true
 type: workshop
 doi: 

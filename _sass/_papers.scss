@@ -7,8 +7,8 @@ $author-image-size: 80px;
 	display: grid;
 	justify-items: stretch;
 	grid-template-columns: repeat(8, 1fr);
-	grid-template-rows: 50px; /* top row is 100px in height */
-	grid-auto-rows: 50px;     /* any new rows created are 200px in height */
+	// grid-template-rows: 50px; /* top row is 100px in height */
+	// grid-auto-rows: 50px;     /* any new rows created are 200px in height */
 	grid-column-gap: 1.5rem;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
@@ -170,6 +170,7 @@ $author-image-size: 80px;
 // }
 
 // .paper figure figcaption.single {
+// 	// text-align: left;
 //     width: 100%;
 //     max-width: 55em;
 //     // margin-left: auto;

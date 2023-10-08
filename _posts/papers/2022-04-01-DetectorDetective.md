@@ -21,8 +21,8 @@ figure: /images/papers/22_cvpr_detectordetective.png
 feature-title: DetectorDetective&#58; Investigating the Effects of Adversarial Examples on Object Detectors
 feature-description: "Interactive visualization tool for adversarial object detectors"
 image: /images/featured/22_cvpr_detectordetective.png
-featured: true
-feature-order: 6
+featured: false
+feature-order: 202204
 selected: false
 type: demo
 doi: 

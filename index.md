@@ -26,18 +26,18 @@ title: Home
 		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div>
-		Hi, I'm Anthony. I'm an active member of <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/poloclub.png"> <a href="http://poloclub.gatech.edu">Polo Club of Data Science</a> advised by <a href="http://www.cc.gatech.edu/~dchau/">Prof. Polo Chau</a>. My research spans machine learning, computer vision and natural language processing. In particular, I have strong interests in building reliable algorithms and toolkits that understand, fortify and democratize AI security with an eye towards scalability and practicality in real-world settings. 
-		<!-- focuses on adversarial machine learning. Currently, I am investigating how to defend the object detectors and object trackers against digital and physical attacks.  -->
+		Hi, I'm Anthony. I'm a CS PhD of <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/gatech.svg"> Georgia Tech advised by <a href="http://www.cc.gatech.edu/~dchau/">Prof. Polo Chau</a>. My research focuses on trustworthy machine learning, computer vision, and multimodal foundation models, with an emphasis on enhancing deep learning algorithm safety and explainability. I achieve this through methods of architecture modification, multi-task learning, and visualizing model behavior under adversarial attacks. My work also spans application domains such as multimodal systems, object detection, object tracking, table representation learning, and structural health monitoring. I have strong interests in creating scalable and practical AI security algorithms and toolkits.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
 		I have collaborated with researchers, developers, and scientists while working at 
         <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/gatech.svg"> Georgia Tech, 
-        <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/intel.svg"> Intel Security Solutions Lab, 
-        <img class="intro-logo" style="width: 24px" src="/images/ucla.svg"> UCLA Design Automation Lab, 
-        <img class="intro-logo" style="width: 24px;" src="/images/tongji.svg"> Tongji University,
-        <img class="intro-logo" style="width: 24px;" src="/images/aaii.png"> Shanghai Jiao Tong University,
-        and <img class="intro-logo" style="width: 24px;" src="/images/fudan.svg"> Fudan University.
+        <img class="intro-logo" style="width: 24px; padding-bottom: 3px;" src="/images/intel.svg"> Intel Lab, 
+		<img class="intro-logo" style="width: 34px; padding-bottom: 3px;" src="/images/adp.png"> ADP, 
+        <img class="intro-logo" style="width: 24px; padding-bottom: 3px;" src="/images/ucla.svg"> UCLA, 
+        <img class="intro-logo" style="width: 20px; padding-bottom: 3px;" src="/images/tongji.svg"> Tongji University,
+        <img class="intro-logo" style="width: 20px; padding-bottom: 3px;" src="/images/sjtu.png"> Shanghai Jiao Tong University,
+        and <img class="intro-logo" style="width: 20px; padding-bottom: 3px;" src="/images/fudan.svg"> Fudan University.
 	</div>
 </div>
 
@@ -74,3 +74,7 @@ title: Home
 [cv]: {{ site.url }}/cv
 [polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
 [poloclub]: http://poloclub.gatech.edu "Polo Club of Data Science"
+
+<!-- <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/poloclub.png"> <a href="http://poloclub.gatech.edu">Polo Club of Data Science</a> -->
+
+<!-- I have strong interests in building reliable algorithms and toolkits that understand, fortify and democratize AI security with an eye towards scalability and practicality in real-world settings.  -->

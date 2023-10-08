@@ -6,7 +6,7 @@ jsarr:
 - js/scripts.js
 ---
 
-<h1 id="cv-title"><a href="{{ site.url }}">ShengYun (Anthony) Peng</a></h1>
+<h1 id="cv-title"><a href="{{ site.url }}">Anthony Peng</a></h1>
 
 <!-- <p id="cv-subtitle"><i>CS PhD (adversarial machine learning)</i></p> -->
 

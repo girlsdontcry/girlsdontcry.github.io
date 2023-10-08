@@ -25,7 +25,7 @@ feature-title: "Robust Principles: Architectural Design Principles for Adversari
 feature-description: <b> ShengYun Peng </b>, Weilin Xu, Cory Cornelius, Mattew Hull, Kevin Li, Rahul Duggal, Mansi Phute, Duen Horng Chau, Jason Martin
 image: /images/featured/23_robust-principles.png
 featured: true
-feature-order: 202308
+feature-order: 202309
 award: "#1 on RobustBench CIFAR-10 leaderboard"
 award-link: https://robustbench.github.io/#div_cifar10_Linf_heading
 code: https://github.com/poloclub/robust-principles

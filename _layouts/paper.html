@@ -105,12 +105,18 @@ layout: default
 <h2>Abstract</h2>
 <div>{{ page.content }}</div>
 
+<!-- <hr class=" home-hr"> -->
+<div style="height: 3rem"></div>
+
 {% if page.figure %}
 <figure class="l-text">
     <img class="single" src="{{ page.figure }}">
-    <figcaption class="single">{{ page.caption }}</figcaption>
+    <!-- <figcaption class="single">{{ page.caption }}</figcaption> -->
 </figure>
+<div>{{ page.caption }}</div>
 {% endif %}
+
+<div style="height: 3rem"></div>
 
 <h2>BibTeX</h2>
 {% if page.bibtex %}
