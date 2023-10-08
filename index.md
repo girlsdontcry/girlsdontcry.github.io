@@ -8,8 +8,8 @@ title: Home
 		<div id="intro-image-wrapper">
 			<img id="intro-image" src="/images/2022-square.jpg"></div>
 		<div id="intro-title-text-wrapper">
-			<h1 id="intro-title">ShengYun (Anthony) Peng</h1>
-			<div id="intro-subtitle">CS PhD at Georgia Institue of Technology</div>
+			<h1 id="intro-title">ShengYun Anthony Peng</h1>
+			<div id="intro-subtitle">CS PhD at Georgia Tech</div>
 			<div id="intro-title-socials">
 				{% for link in site.data.social-links %}
 					{% if link.on-homepage == true %}
@@ -44,9 +44,10 @@ title: Home
 
 <hr class="l-middle home-hr">
 
-<h2 class="feature-title"> Featured  Publications </h2>
+<h2 class="feature-title l-middle"> Featured Publications </h2>
+<div style="height: 1rem"></div>
 <div class="cover-wrapper cover-wrapper-1-col l-page">
-	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' %}
+	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' | reverse %}
 	{% for feature in sortedPublications %}
 		{% if feature.featured == true %}
 			{% include feature.html feature=feature %}
@@ -54,10 +55,11 @@ title: Home
 	{% endfor %}
 </div>
 
-
+<div style="height: 4rem"></div>
 <h2 class="feature-title l-middle">
 	<a href="{{ site.url }}/everything-else" style="color: #303030">Everything Else</a>
 </h2>
+<div style="height: 1rem"></div>
 <div id="everything-else" class="l-middle">
 	<a href="{{ site.url }}/projects"><div>All Projects</div></a>
 	<a href="{{ site.url }}/blog"><div>Blogs</div></a>

@@ -18,9 +18,9 @@
 
 			<div class="cover-venue">
 				{% if feature.venue-shorthand %}
-				{{ feature.venue-shorthand }}
+				{{ feature.venue-shorthand }},
 				{% else if feature.venue %}
-				{{ feature.venue }}
+				{{ feature.venue }},
 				{% else %}
 				{{ feature.month }}
 				{% endif %}
@@ -99,17 +99,16 @@
 						<i class="fas fa-window-maximize" aria-hidden="true"></i> Slides
 					</a>
 					{% endif %}
+
+					{% if feature.award %}
+					<a href="{{ feature.award-link }}">
+						<i class="fas fa-trophy" aria-hidden="true"></i> {{ feature.award }}
+					</a>
+					{% endif %}
 					
 				</span>
 
 			</div>
-
-        <!-- <div class="cover-year">
-        	{{ feature.venue-shorthand }}
-        	<br>
-            {{ feature.year }}
-        </div> -->
-        
 	    </div>
 
 	</div>
