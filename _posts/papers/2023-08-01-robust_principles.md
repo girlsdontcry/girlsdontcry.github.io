@@ -35,10 +35,10 @@ doi:
 bibtex: |-
 
     @article{peng2023robust,
-      title={Robust Principles: Architectural Design Principles for Adversarially Robust CNNs},
-      author={Peng, ShengYun and Xu, Weilin and Cornelius, Cory and Hull, Matthew and Li, Kevin and Duggal, Rahul and Phute, Mansi and Martin, Jason and Chau, Duen Horng},
-      journal={arXiv preprint arXiv:2308.16258},
-      year={2023}
+        title={Robust Principles: Architectural Design Principles for Adversarially Robust CNNs},
+        author={Peng, ShengYun and Xu, Weilin and Cornelius, Cory and Hull, Matthew and Li, Kevin and Duggal, Rahul and Phute, Mansi and Martin, Jason and Chau, Duen Horng},
+        journal={arXiv preprint arXiv:2308.16258},
+        year={2023}
     }
 ---
 

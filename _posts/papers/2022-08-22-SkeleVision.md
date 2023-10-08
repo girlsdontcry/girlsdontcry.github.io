@@ -8,27 +8,30 @@ authors:
   - Nilaksh Das
   - ShengYun Peng
   - Duen Horng Chau
-venue: ECCV Workshop (AROW)
+venue: The European Conference on Computer Vision (ECCV) Workshop
 year: 2022
 url: /papers/skelevision
-pdf: /papers/22_eccv_skelevision.pdf
+pdf: /papers/22_skelevision.pdf
 type: paper
-figure: /images/papers/22_eccv_skelevision.png
-feature-title: SkeleVision&#58; Towards Adversarial Resiliency of Person Tracking with Multi-Task Learning
-feature-description: "Multi-task learning improves tracker robustness"
-image: /images/featured/22_eccv_skelevision.png
+figure: /images/papers/22_skelevision.png
+caption: "Example video frames and the corresponding adversarial IoU charts for the video from the OTB2015-Person dataset showing the constructed static adversarial patches for single-task learning (STL) (red) and multi-task learning (MTL) (orange) for an attack with &delta; = 0.1 and 10 steps. The dashed blue box shows the ground-truth target. The attack misleads the STL tracker early, but struggles to mislead the MTL tracker until much later. The unperturbed gray regions in the patch are locations which are never predicted by the tracker. Since SiamRPN is a short-term tracker, the tracker cannot be restored once it loses the target"
+feature-title: "SkeleVision: Towards Adversarial Resiliency of Person Tracking with Multi-Task Learning"
+feature-description: Nilaksh Das, <b> ShengYun Peng </b>, Duen Horng Chau
+image: /images/featured/22-skelevision.png
 featured: true
 feature-order: 202208
 selected: true
 type: workshop
-doi: 
+code: https://github.com/nilakshdas/SkeleVision
 bibtex: |-
 
-  @article{das2022skelevision,
-    title={SkeleVision: Towards Adversarial Resiliency of Person Tracking with Multi-Task Learning},
-    author={Das, Nilaksh and Peng, Sheng-Yun and Chau, Duen Horng},
-    journal={arXiv preprint arXiv:2204.00734},
-    year={2022}
+  @inproceedings{das2022skelevision,
+      title={Skelevision: Towards adversarial resiliency of person tracking with multi-task learning},
+      author={Das, Nilaksh and Peng, ShengYun and Chau, Duen Horng},
+      booktitle={European Conference on Computer Vision},
+      pages={449--466},
+      year={2022},
+      organization={Springer}
   }
 ---
 

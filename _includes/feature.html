@@ -18,10 +18,10 @@
 
 			<div class="cover-venue">
 				{% if feature.venue-shorthand %}
-				{{ feature.venue-shorthand }},
+				{{ feature.venue-shorthand }}
 				{% else if feature.venue %}
-				{{ feature.venue }},
-				{% else %}
+				{{ feature.venue }}
+				{% else if feature.month%}
 				{{ feature.month }}
 				{% endif %}
 				{{ feature.year }}

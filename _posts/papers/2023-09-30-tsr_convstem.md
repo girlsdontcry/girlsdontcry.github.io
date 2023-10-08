@@ -1,45 +1,40 @@
 ---
 layout: paper
 categories: papers
-permalink: papers/robust-principles
-id: robust-principles
-title: "Robust Principles: Architectural Design Principles for Adversarially Robust CNNs"
+permalink: tsr-convstem
+id: tsr-convstem
+title: "High-Performance Transformers for Table Structure Recognition Need Early Convolutions"
 authors:
   - ShengYun Peng
-  - Weilin Xu
-  - Cory Cornelius
-  - Mattew Hull
-  - Kevin Li
-  - Rahul Duggal
-  - Mansi Phute
+  - Seongmin Lee
+  - Xiaojing Wang
+  - Raji Balasubramaniyan
   - Duen Horng Chau
-  - Jason Martin
-venue: British Machine Vision Conference (BMVC)
-year: 2023
-url: /papers/robust-principles
-pdf: /papers/23_robust-principles.pdf
+venue: Under review
+year: 
+url: tsr-convstem
+pdf: 
 type: paper
-figure: /images/papers/23_robust-principles.png
-caption: "We synthesize a suite of generalizable architectural design principles to robustify CNNs, spanning a network’s macro and micro designs: (A) optimal range for depth and width configurations, (B) preferring convolutional over patchify stem stage, and (C) robust residual block design by adopting squeeze and excitation blocks, and non-parametric smooth activation functions. The principles consis- tently and markedly improve AutoAttack accuracy for CIFAR-10, CIFAR-100, and ImageNet over the wide spectrum of AT methods, model parameters, and network design spaces."
-feature-title: "Robust Principles: Architectural Design Principles for Adversarially Robust CNNs"
-feature-description: <b> ShengYun Peng </b>, Weilin Xu, Cory Cornelius, Mattew Hull, Kevin Li, Rahul Duggal, Mansi Phute, Duen Horng Chau, Jason Martin
-image: /images/featured/23_robust-principles.png
+figure: /images/papers/23_tsr-convstem.png
+caption: "Using convolutional stem (ConvStem in a visual encoder for table structure recognition (TSR) achieves performance comparable to that of a CNN backbone while significantly reducing model complexity. The CNN backbone is performant with large RF but exhibits high model complexity. Linear projection is the simplest but suffers in terms of performance due to limited RF and sequence length. In contrast, ConvStem strikes an optimal balance between two crucial factors for high-performance TSR: a higher receptive field (RF) ratio and a longer sequence length. We illustrate each visual encoder option’s RF (zoomed in) and compute its RF ratio. Using the image features extracted from the visual encoder, a textual decoder then generates tokens representing the table."
+feature-title: "High-Performance Transformers for Table Structure Recognition Need Early Convolutions"
+feature-description: <b> ShengYun Peng </b>, Seongmin Lee, Xiaojing Wang, Raji Balasubramaniyan, Duen Horng Chau
+image: /images/featured/23_tsr-convstem.png
 featured: true
 feature-order: 202309
-award: "#1 on RobustBench CIFAR-10 leaderboard"
-award-link: https://robustbench.github.io/#div_cifar10_Linf_heading
-code: https://github.com/poloclub/robust-principles
+coming-soon: true
+award: 
+award-link: 
+code: 
 selected: false
 type: misc
-doi: 
 bibtex: |-
 
-    @article{peng2023robust,
-      title={Robust Principles: Architectural Design Principles for Adversarially Robust CNNs},
-      author={Peng, ShengYun and Xu, Weilin and Cornelius, Cory and Hull, Matthew and Li, Kevin and Duggal, Rahul and Phute, Mansi and Martin, Jason and Chau, Duen Horng},
-      journal={arXiv preprint arXiv:2308.16258},
-      year={2023}
+    @article{peng2023high,
+        title={High-Performance Transformers for Table Structure Recognition Need Early Convolutions},
+        author={ShengYun Peng, Seongmin Lee, Xiaojing Wang, Raji Balasubramaniyan, Duen Horng Chau},
+        year={2023}
     }
 ---
 
-We aim to unify existing works' diverging opinions on how architectural components affect the adversarial robustness of CNNs. To accomplish our goal, we synthesize a suite of three generalizable robust architectural design principles: (a) optimal range for depth and width configurations, (b) preferring convolutional over patchify stem stage, and (c) robust residual block design through adopting squeeze and excitation blocks and non-parametric smooth activation functions. Through extensive experiments across a wide spectrum of dataset scales, adversarial training methods, model parameters, and network design spaces, our principles consistently and markedly improve AutoAttack accuracy: 1-3 percentage points (pp) on CIFAR-10 and CIFAR-100, and 4-9 pp on ImageNet.
+Table structure recognition (TSR) aims to convert tabular images into a machine-readable format, where a visual encoder extracts image features and a textual decoder generates table-representing tokens. Existing approaches use classic convolutional neural network (CNN) backbones for the visual encoder and transformers for the textual decoder. However, this hybrid CNN-Transformer architecture introduces a complex visual encoder that accounts for nearly half of the total model parameters, markedly reduces both training and inference speed, and hinders the potential for self-supervised learning in TSR. In this work, we design a lightweight visual encoder for TSR without sacrificing expressive power. We discover that a convolutional stem can match classic CNN backbone performance, with a much simpler model. The convolutional stem strikes an optimal balance between two crucial factors for high-performance TSR: a higher receptive field (RF) ratio and a longer sequence length. This allows it to "see" an appropriate portion of the table and "store" the complex table structure within sufficient context length for the subsequent transformer. We conducted reproducible ablation studies and open-sourced our code to enhance transparency, inspire innovations, and facilitate fair comparisons in our domain as tables are a promising modality for representation learning.
