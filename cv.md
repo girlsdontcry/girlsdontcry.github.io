@@ -111,12 +111,12 @@ jsarr:
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %}
 
-<!-- ### Poster
+### Poster
 
 {% assign poster = site.categories.papers | where: 'type', "poster" %}
 {% for pub in poster %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %} -->
+{% endfor %}
 
 ### Demo
 

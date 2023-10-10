@@ -4,15 +4,24 @@ title: Projects
 permalink: projects/
 ---
 
-Things I do, including research, academic course projects, and miscellaneous interests.
+<!-- Things I do, including research, academic course projects, and miscellaneous interests. -->
 
-### Research
-<ul>
+<div style="height: 4rem"></div>
+<h2 class="feature-title l-middle"> Research Projects </h2>
+<div style="height: 1rem"></div>
+<div class="cover-wrapper cover-wrapper-1-col l-page">
+	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' | reverse %}
+	{% for feature in sortedPublications %}
+		{% include feature.html feature=feature %}
+	{% endfor %}
+</div>
+
+<!-- <ul>
     {% for pub in site.categories.papers %}
     {% assign title = pub.id | split: "/" %}
     <li><a href="{{ pub.url }}" style="text-transform: capitalize">{{ title[2] }}</a> <small style="color: #c0c0c0">{{ pub.year }}</small></li>
     {% endfor %}
-</ul>
+</ul> -->
 
 <!-- ### Academic
 <ul>
@@ -38,5 +47,5 @@ Things I do, including research, academic course projects, and miscellaneous int
 <li><a href="{{ site.url }}/projects/road-bike-restoration">Road Bike Restoration</a> <small style="color: #c0c0c0">2012</small></li>
 </ul> -->
 
-[trefoil]: {{ site.url }}/projects/3d-printing-the-trefoil-knot-and-its-pages "3D Printing the Trefoil Knot and its Pages"
-[reu]: {{ site.url }}/projects/mathematics-&-computational-science-reu "Mathematics & Computational Science REU"
+<!-- [trefoil]: {{ site.url }}/projects/3d-printing-the-trefoil-knot-and-its-pages "3D Printing the Trefoil Knot and its Pages"
+[reu]: {{ site.url }}/projects/mathematics-&-computational-science-reu "Mathematics & Computational Science REU" -->

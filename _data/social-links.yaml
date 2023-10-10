@@ -59,3 +59,10 @@
   class: "fab fa-linkedin-in icon"
   url: "https://www.linkedin.com/in/shengyun-anthony-peng/"
   on-homepage: true
+
+- id: medium
+  description: "Medium"
+  color: "#0077b5"
+  icon: "/images/medium-icon.webp"
+  url: "https://medium.com/@real_anthonypeng"
+  on-homepage: true

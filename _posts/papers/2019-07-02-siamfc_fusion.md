@@ -16,11 +16,11 @@ year: 2019
 url: /papers/Fusion
 pdf: /papers/19_Fusion.pdf
 figure: /images/papers/19_Fusion.png
-feature-title: 
-feature-description: ""
-image: 
+feature-title: "Object Fusion Tracking Based on Visible and Infrared Images Using Fully Convolutional Siamese Networks"
+feature-description: Xingchen Zhang, Ping Ye, Dan Qiao, Junhao Zhao, ≈, Gang Xiao
+image: /images/featured/19_siamfc-fusion.png
 featured: false
-feature-order: 
+feature-order: 201907
 selected: false
 type: conference
 doi: ""
