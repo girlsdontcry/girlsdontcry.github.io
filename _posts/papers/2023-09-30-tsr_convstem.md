@@ -14,7 +14,6 @@ venue: Under review
 year: 
 url: tsr-convstem
 pdf: 
-type: paper
 figure: /images/papers/23_tsr-convstem.png
 caption: "Using convolutional stem (ConvStem in a visual encoder for table structure recognition (TSR) achieves performance comparable to that of a CNN backbone while significantly reducing model complexity. The CNN backbone is performant with large RF but exhibits high model complexity. Linear projection is the simplest but suffers in terms of performance due to limited RF and sequence length. In contrast, ConvStem strikes an optimal balance between two crucial factors for high-performance TSR: a higher receptive field (RF) ratio and a longer sequence length. We illustrate each visual encoder option’s RF (zoomed in) and compute its RF ratio. Using the image features extracted from the visual encoder, a textual decoder then generates tokens representing the table."
 feature-title: "High-Performance Transformers for Table Structure Recognition Need Early Convolutions"

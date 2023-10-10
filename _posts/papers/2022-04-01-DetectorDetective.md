@@ -16,7 +16,6 @@ venue: CVPR Demo
 year: 2022
 url: /papers/detector-detective
 pdf: /papers/22_cvpr_detectordetective.pdf
-type: paper
 figure: /images/papers/22_cvpr_detectordetective.png
 feature-title: DetectorDetective&#58; Investigating the Effects of Adversarial Examples on Object Detectors
 feature-description: "Interactive visualization tool for adversarial object detectors"

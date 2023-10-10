@@ -18,7 +18,6 @@ venue: British Machine Vision Conference (BMVC)
 year: 2023
 url: /papers/robust-principles
 pdf: /papers/23_robust-principles.pdf
-type: paper
 figure: /images/papers/23_robust-principles.png
 caption: "We synthesize a suite of generalizable architectural design principles to robustify CNNs, spanning a network’s macro and micro designs: (A) optimal range for depth and width configurations, (B) preferring convolutional over patchify stem stage, and (C) robust residual block design by adopting squeeze and excitation blocks, and non-parametric smooth activation functions. The principles consis- tently and markedly improve AutoAttack accuracy for CIFAR-10, CIFAR-100, and ImageNet over the wide spectrum of AT methods, model parameters, and network design spaces."
 feature-title: "Robust Principles: Architectural Design Principles for Adversarially Robust CNNs"
