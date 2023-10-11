@@ -20,7 +20,7 @@ feature-title: "High-Performance Transformers for Table Structure Recognition Ne
 feature-description: <b> ShengYun Peng </b>, Seongmin Lee, Xiaojing Wang, Raji Balasubramaniyan, Duen Horng Chau
 image: /images/featured/23_tsr-convstem.png
 featured: true
-feature-order: 202309
+feature-order: 20230930
 coming-soon: true
 award: 
 award-link: 
