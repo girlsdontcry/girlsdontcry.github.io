@@ -47,10 +47,7 @@ adversarial robustness."
   year-extra: "Aug. 2020"
   mentors:
     - Ying Zhou
-  description: "Developed a framework from the ground-up which identified structural system with a non-contact measurement method based on a novel Siamese tracker, 
-  digital video stabilization, and power spectrum density analyses. The framework only requires consumer-graded cameras, 
-  i.e., cellphones' and drones' cameras, and is verified through a shaking table test of a full scale low-damage concrete wall building. 
-  The proposed framework was published in a top-tier journal, and is widely used by multiple cities for structural health monitoring in China."
+  description: "Developed a framework from the ground-up which identified structural system through a non-contact measurement method, which was widely used by multiple cities for structural health monitoring in China."
   institution-url: https://en.tongji.edu.cn/
   group-url: http://www.ilee-tj.com/En/Data/View/813
   type: academic
@@ -65,7 +62,6 @@ adversarial robustness."
     - Xingcheng Zhang
     - Gang Xiao
   description: "Developed visible and infrared fusion methods on both pixel and feature levels, which solved tracking challenges including partial occlusion and low illumination.
-  Analyzed four types of occlusion, and built an anti-occlusion correlation filter-based tracker with re-detection mechanism. 
   The tracker ranked first on large-scale RGBT234 tracking benchmark."
   institution-url: https://en.sjtu.edu.cn/
   group-url: http://www.avionics.icoc.in/
@@ -80,12 +76,10 @@ adversarial robustness."
   mentors:
     - Yunxuan Yu
     - Lei He
-  description: "Proposed a novel anchor-free tracker that achieved SOTA performances on widely-used tracking benchmarks, e.g., OTB2015, VOT2015, VOT2016, and TrackingNet. 
-  Simulated network pruning and data quantization of tracking networks for future deployment on a FPGA board with general DNN accelerations."
+  description: "Proposed a novel anchor-free tracker that achieved SOTA performances on widely-used tracking benchmarks, e.g., OTB2015, VOT2015, VOT2016, and TrackingNet."
   institution-url: https://www.ucla.edu/
   group-url: http://eda.ee.ucla.edu/
   type: academic
-
 
 - institution: Tongji University
   location: "Shanghai, China"
@@ -95,9 +89,7 @@ adversarial robustness."
   year-extra: "Apr. 2018"
   mentors:
     - Qianrong Yang
-  description: "Finished the mechanical design and manufacture of a 3D concrete printer prototype
-  with automatic pulp feeding systems. The printer fully supports Building Information Modeling (BIM) to visualize construction process
-  and cost. Performed sample rupture strength and tensile strength tests for printed samples, and achieved desired physical properties."
+  description: "Mechanical design and manufacture of a 3D concrete printer with automatic pulp feeding systems."
   institution-url: https://en.tongji.edu.cn/
   group-url: https://smse.tongji.edu.cn/English/Home.htm
   type: academic
@@ -110,9 +102,7 @@ adversarial robustness."
   year-extra: "Aug. 2017"
   mentors:
     - Chao Liu
-  description: "Built two Matlab Simulink models for missile launch and Cessna-172 aircraft flight control. 
-  Tested the settings under different real-world environment scenarios. 
-  Finetuned PID control system parameters to realize assistive and full-automatic path control under specific flight requirements. "
+  description: "PID control in Matlab Simulink for cruise missile and Cessna-172 aircraft flight."
   institution-url: https://english.cas.cn/
   group-url:  http://english.ict.cas.cn/
   type: academic

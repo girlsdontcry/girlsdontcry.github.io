@@ -1,8 +1,8 @@
-{% if selectedBoolForBibtex != true %}
+<!-- {% if selectedBoolForBibtex != true %}
 <div class="cv-left-date">
 	{% case pub.type %}{% when "journal" %}J{% when "conference" %}C{% when "workshop" %}W{% when "poster" %}P{% when "demo" %}D{% when "misc" %}M{% endcase %}{{ forloop.rindex }}
 </div>
-{% endif %}
+{% endif %} -->
 
 <div>
 {% if pub.url %}
@@ -27,11 +27,11 @@
 <div class="pub-misc">
 {% if pub.url or pub.pdf or pub.coming-soon %}
 
-	{% if pub.coming-soon == true %}
+	<!-- {% if pub.coming-soon == true %}
 	  <a>
 	    <i class="fas fa-arrow-right" aria-hidden="true"></i> More coming soon!
 	  </a>
-	{% endif %}
+	{% endif %} -->
 
 	{% if pub.url %}
 	  <a href="{{ pub.url }}">

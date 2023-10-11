@@ -84,49 +84,21 @@ jsarr:
 
 {% assign selectedBoolForBibtex = false %}
 
-### Journal
-
-{% assign journal = site.categories.papers | where: 'type', "journal" %}
+{% assign journal = site.categories.papers %}
 {% for pub in journal %}
+{% if pub.type != "misc" %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
+{% endif %}
 {% endfor %}
 
-### Conference
-
-{% assign conference = site.categories.papers | where: 'type', "conference" %}
-{% for pub in conference %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
-
-### Workshop
-
-{% assign workshop = site.categories.papers | where: 'type', "workshop" %}
-{% for pub in workshop %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
-
-### Poster
-
-{% assign poster = site.categories.papers | where: 'type', "poster" %}
-{% for pub in poster %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
-
-### Demo
-
-{% assign demo = site.categories.papers | where: 'type', "demo" %}
-{% for pub in demo %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
-
-### Miscellaneous
+## Miscellaneous
 
 {% assign preprint = site.categories.papers | where: 'type', "misc" %}
 {% for pub in preprint %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %}
 
-## Talks
+## Invited Talks and Presentations
 
 {% assign talktitles = site.data.talks | group_by:"title" %}
 {% for title in talktitles %}
@@ -176,14 +148,14 @@ jsarr:
 <!-- <div class="cv-service-title"><b>Organizer</b></div>
 {% for venue in site.data.organizer %}
 {% include cv/venue.html venue=venue %}
-{% endfor %}
+{% endfor %} -->
 
 <div class="cv-service-title"><b>Program Commitee</b></div>
 {% for venue in site.data.pc %}
 {% include cv/venue.html venue=venue %}
 {% endfor %}
 
-<div class="cv-service-title"><b>Institutional</b></div>
+<!-- <div class="cv-service-title"><b>Institutional</b></div>
 {% for institution in site.data.institutional %}
 {% include cv/institutional.html institution=institution %}
 {% endfor %} -->
@@ -243,3 +215,4 @@ Most importantly, my positive energy level throughout the research career is exc
 <!-- My research focuses on trustworthy machine learning, computer vision, and multimodal foundation models, with an emphasis on enhancing deep learning algorithm safety and explainability. I achieve this through methods of architecture modification, multi-task learning, and visualizing model behavior under adversarial attacks. My work also spans application domains such as multimodal systems, object detection, object tracking, table representation learning, and structural health monitoring. -->
 
 <!-- I have strong interests in building reliable algorithms and toolkits that understand, fortify and democratize AI security with an eye towards scalability and practicality in real-world settings.  -->
+
