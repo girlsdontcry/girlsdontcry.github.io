@@ -12,7 +12,8 @@
 {% endif %}
 
 {% if mentee.now-position %}
-	<div class="cv-description">Now: {{ mentee.now-position }} at <a href="{{ mentee.now-institution-url }}">{{ mentee.now-institution }}</a></div>
+	<!-- <div class="cv-description">Now: {{ mentee.now-position }} at <a href="{{ mentee.now-institution-url }}">{{ mentee.now-institution }}</a></div> -->
+	<div class="cv-description">Now: {{ mentee.now-position }} at {{ mentee.now-institution }}</div>
 {% endif %}
 
 <div class="cv-spacer"></div>
