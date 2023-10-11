@@ -7,8 +7,8 @@
   mentors:
     - Weilin Xu
     - Jason Martin
-  description: "Worked on DARPA Guaranteeing AI Robustness Against Deception (GARD) project, and 
-  investigated how various architectural components improve DNN robustness against adversarial attacks."
+  description: "Worked on DARPA Guaranteeing AI Robustness Against Deception (GARD) project; Investigated four key architectural components underpinning SOTA CNNs and Transformers that boost
+adversarial robustness."
   institution-url: https://www.intel.com/content/www/us/en/homepage.html
   group-url: https://www.intel.com/content/www/us/en/research/security-research.html
   type: industry
@@ -21,7 +21,7 @@
   year-extra: "present"
   mentors:
     - Duen Horng Chau
-  description: A member of <a href="https://poloclub.github.io/">Polo Club of Data Science</a>
+  description: Member of <a href="https://poloclub.github.io/">Polo Club of Data Science</a> where we bridge and innovate at the intersection of data mining and human-computer interaction to synthesize scalable, interactive, and interpretable tools that amplify human’s ability to understand and interact with big data.
   institution-url: http://gatech.edu
   group-url: https://www.scs.gatech.edu/
   type: academic
@@ -34,8 +34,7 @@
   year-extra: "Dec. 2020"
   mentors:
     - Weidong Yang
-  description: "Built a cockpit monitoring software via feature point alignment and OCR techniques. 
-  The system can locate the dashboard, extract the plane's status parameters, e.g., airspeed and attitude, and interactively verify the correctness based on human guidance."
+  description: "Built a cockpit monitoring software that can locate the dashboard, extract the plane's status parameters, and interactively verify the correctness based on human guidance."
   institution-url: https://www.fudan.edu.cn/en/
   group-url: https://datascience.fudan.edu.cn/
   type: academic
