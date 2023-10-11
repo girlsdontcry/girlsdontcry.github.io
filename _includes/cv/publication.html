@@ -131,7 +131,17 @@
 	{% endif %}
 
 	{% if pub.award %}
-	    <span class="cv-award"><i class="fas fa-trophy" aria-hidden="true"></i> {{ pub.award }}</span>
+	<a href="{{ pub.award-link }}">
+	    <span class="cv-award">
+			<i class="fas fa-trophy" aria-hidden="true"></i> {{ pub.award }}
+		</span>
+	</a>
+	{% endif %}
+
+	{% if feature.award %}
+	<a href="{{ feature.award-link }}">
+		<i class="fas fa-trophy" aria-hidden="true"></i> {{ feature.award }}
+	</a>
 	{% endif %}
 
 	{% if pub.highlight %}

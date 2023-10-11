@@ -115,15 +115,7 @@ jsarr:
 
 {% for teach in site.data.teaching %}
 {% include cv/teaching.html teach=teach %}
-{% endfor %}
-
-## Mentoring
-
-{::nomarkdown}
-{% for mentee in site.data.mentoring %}
-{% include cv/mentee.html mentee=mentee %}
-{% endfor %}
-{:/} -->
+{% endfor %} -->
 
 ## Grants and Funding
 
@@ -175,6 +167,14 @@ jsarr:
 {% for design in site.data.designs %}
 {% include cv/design.html design=design %}
 {% endfor %} -->
+
+## Mentoring
+
+{::nomarkdown}
+{% for mentee in site.data.mentoring %}
+{% include cv/mentee.html mentee=mentee %}
+{% endfor %}
+{:/}
 
 ## References
 
