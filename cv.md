@@ -91,7 +91,7 @@ jsarr:
 {% endif %}
 {% endfor %}
 
-## Miscellaneous
+## Preprint
 
 {% assign preprint = site.categories.papers | where: 'type', "misc" %}
 {% for pub in preprint %}
