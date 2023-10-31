@@ -8,7 +8,7 @@ authors:
   - Nilaksh Das
   - ShengYun Peng
   - Duen Horng Chau
-venue: The European Conference on Computer Vision (ECCV) Workshop
+venue: European Conference on Computer Vision (ECCV) Workshop
 year: 2022
 url: /papers/skelevision
 pdf: /papers/22_skelevision.pdf

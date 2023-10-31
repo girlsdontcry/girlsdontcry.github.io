@@ -10,8 +10,8 @@ authors:
   - Xiaojing Wang
   - Raji Balasubramaniyan
   - Duen Horng Chau
-venue: Under review
-year: 
+venue: Neural Information Processing Systems (NeurIPS) Workshop
+year: 2023
 url: tsr-convstem
 pdf: 
 figure: /images/papers/23_tsr-convstem.png
@@ -21,12 +21,12 @@ feature-description: <b> ShengYun Peng </b>, Seongmin Lee, Xiaojing Wang, Raji B
 image: /images/featured/23_tsr-convstem.png
 featured: true
 feature-order: 20230930
-coming-soon: true
+coming-soon: false
 award: 
 award-link: 
-code: 
+code: https://github.com/poloclub/tsr-convstem
 selected: false
-type: misc
+type: workshop
 bibtex: |-
 
     @article{peng2023high,
