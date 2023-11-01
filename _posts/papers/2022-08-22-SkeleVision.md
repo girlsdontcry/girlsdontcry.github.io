@@ -11,7 +11,7 @@ authors:
 venue: European Conference on Computer Vision (ECCV) Workshop
 year: 2022
 url: /papers/skelevision
-pdf: /papers/22_skelevision.pdf
+pdf: https://arxiv.org/abs/2204.00734
 figure: /images/papers/22_skelevision.png
 caption: "Example video frames and the corresponding adversarial IoU charts for the video from the OTB2015-Person dataset showing the constructed static adversarial patches for single-task learning (STL) (red) and multi-task learning (MTL) (orange) for an attack with &delta; = 0.1 and 10 steps. The dashed blue box shows the ground-truth target. The attack misleads the STL tracker early, but struggles to mislead the MTL tracker until much later. The unperturbed gray regions in the patch are locations which are never predicted by the tracker. Since SiamRPN is a short-term tracker, the tracker cannot be restored once it loses the target"
 feature-title: "SkeleVision: Towards Adversarial Resiliency of Person Tracking with Multi-Task Learning"

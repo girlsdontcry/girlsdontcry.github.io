@@ -11,9 +11,9 @@ feature-description: Mansi Phute, Alec Helbling, Matthew Hull, <b> ShengYun Peng
 image: /images/featured/23_llm-self-defense.png
 featured: true
 feature-order: 20230901
-coming-soon: true
-venue: Under review
-year: 
+coming-soon: false
+venue: arXiv
+year: 2023
 award: 
 award-link:
 code: 
@@ -27,18 +27,23 @@ authors:
   - Sebastian Szyller
   - Cory Cornelius
   - Duen Horng Chau
-pdf:
+pdf: https://arxiv.org/abs/2308.07308
 figure: /images/papers/23_llm-self-defense.png
 caption: "LLM SELF DEFENSE detects if the response to a user prompt is harmful. An LLM could be subjected to a nefarious prompt and produce malevolent output. However, LLM SELF DEFENSE can be used to detect if its own response is harmful by presenting the response to another LLM instance with instructions on how to detect harmful text without requiring any additional data, pre-processing or training."
+
+
 selected: false
 type: misc
 doi: 
 bibtex: |-
 
-  @article{phute2023llm,
-      title={LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked},
-      author={Mansi Phute, Alec Helbling, Matthew Hull, ShengYun Peng, Sebastian Szyller, Cory Cornelius, Duen Horng Chau},
-      year={2023}
+  @misc{phute2023llm,
+      title={LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked}, 
+      author={Mansi Phute and Alec Helbling and Matthew Hull and ShengYun Peng and Sebastian Szyller and Cory Cornelius and Duen Horng Chau},
+      year={2023},
+      eprint={2308.07308},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
   }
 
 ---
