@@ -19,6 +19,7 @@ year: 2023
 url: /papers/robust-principles
 pdf: https://arxiv.org/abs/2308.16258
 poster: /papers/posters/22_robarch.pdf
+video: https://www.youtube.com/watch?v=S-N1iuA0hAY
 figure: /images/papers/23_robust-principles.png
 caption: "We synthesize a suite of generalizable architectural design principles to robustify CNNs, spanning a network’s macro and micro designs: (A) optimal range for depth and width configurations, (B) preferring convolutional over patchify stem stage, and (C) robust residual block design by adopting squeeze and excitation blocks, and non-parametric smooth activation functions. The principles consis- tently and markedly improve AutoAttack accuracy for CIFAR-10, CIFAR-100, and ImageNet over the wide spectrum of AT methods, model parameters, and network design spaces."
 feature-title: "Robust Principles: Architectural Design Principles for Adversarially Robust CNNs"
@@ -26,7 +27,7 @@ feature-description: <b> ShengYun Peng </b>, Weilin Xu, Cory Cornelius, Matthew 
 image: /images/featured/23_robust-principles.png
 featured: true
 feature-order: 20230801
-award: "#1 on RobustBench CIFAR-10 leaderboard"
+award: "#1 on RobustBench CIFAR-10"
 award-link: https://robustbench.github.io/#div_cifar10_Linf_heading
 code: https://github.com/poloclub/robust-principles
 selected: false
