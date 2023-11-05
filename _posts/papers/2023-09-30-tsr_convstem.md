@@ -22,8 +22,8 @@ image: /images/featured/23_tsr-convstem.png
 featured: true
 feature-order: 20230930
 coming-soon: false
-award: 
-award-link: 
+award: Oral
+award-link: https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/TRL
 code: https://github.com/poloclub/tsr-convstem
 selected: false
 type: workshop
