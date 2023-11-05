@@ -12,14 +12,15 @@
   <meta name="twitter:creator" content="@RealAnthonyPeng" />
   <meta property="og:url" content="https://shengyun-peng.github.io/" />
   <meta property="og:title" content="ShengYun Peng" />
-  <meta property="og:description" content="ShengYun Peng is a PhD student at Georgia Tech working on adversarial machine learning." />
-<!--  <meta property="og:image" content="http://fredhohman.com/images/share.png" />-->
+  <meta property="og:description"
+    content="ShengYun Peng is a PhD student at Georgia Tech working on adversarial machine learning." />
+  <!--  <meta property="og:image" content="http://fredhohman.com/images/share.png" />-->
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }}
+    {{ site.title }}
     {% else %}
-      {{ page.title }} — {{ site.title }}
+    {{ page.title }} — {{ site.title }}
     {% endif %}
   </title>
 
@@ -29,28 +30,40 @@
   <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
 
   <!-- Icons -->
-<!--  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png?v=xQdLjRyXLj">-->
-<!--  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png?v=xQdLjRyXLj">-->
-<!--  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png?v=xQdLjRyXLj">-->
-<!--  <link rel="manifest" href="/icons/site.webmanifest?v=xQdLjRyXLj">-->
-<!--  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg?v=xQdLjRyXLj" color="#313131">-->
-<!--  <link rel="shortcut icon" href="/icons/favicon.ico?v=xQdLjRyXLj">-->
-<!--  <meta name="msapplication-TileColor" content="#313131">-->
-<!--  <meta name="msapplication-config" content="/icons/browserconfig.xml?v=xQdLjRyXLj">-->
-<!--  <meta name="theme-color" content="#ffffff">-->
+  <!--  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png?v=xQdLjRyXLj">-->
+  <!--  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png?v=xQdLjRyXLj">-->
+  <!--  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png?v=xQdLjRyXLj">-->
+  <!--  <link rel="manifest" href="/icons/site.webmanifest?v=xQdLjRyXLj">-->
+  <!--  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg?v=xQdLjRyXLj" color="#313131">-->
+  <!--  <link rel="shortcut icon" href="/icons/favicon.ico?v=xQdLjRyXLj">-->
+  <!--  <meta name="msapplication-TileColor" content="#313131">-->
+  <!--  <meta name="msapplication-config" content="/icons/browserconfig.xml?v=xQdLjRyXLj">-->
+  <!--  <meta name="theme-color" content="#ffffff">-->
 
   <!-- Feed -->
   {% feed_meta %}
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154674036-1"></script>
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154674036-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'UA-154674036-1');
+  </script> -->
+
+  <!-- Global site tag (gtag.js) - Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-T5HT7VK6');
   </script>
+  <!-- End Google Tag Manager -->
 
 
 </head>

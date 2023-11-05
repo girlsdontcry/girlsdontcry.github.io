@@ -1,18 +1,27 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  {% include head.html %}
-  <body>
-    {% include header.html %}
-    <main>
-      {{ content }}
-    </main>
-    {% include footer.html %}
-  </body>
-  {% if page.jsarr %}
-    {% for js in page.jsarr %}
-      <script>
-        {% include {{ js }} %}
-      </script>
-    {% endfor %}
-  {% endif %}
+<html lang="{{ site.lang | default: " en-US" }}">
+{% include head.html %}
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5HT7VK6" height="0" width="0"
+      style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  {% include header.html %}
+  <main>
+    {{ content }}
+  </main>
+  {% include footer.html %}
+</body>
+{% if page.jsarr %}
+{% for js in page.jsarr %}
+<script>
+  {% include {{ js }} %}
+</script>
+{% endfor %}
+{% endif %}
+
 </html>
