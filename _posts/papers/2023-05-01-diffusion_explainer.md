@@ -23,7 +23,7 @@ type: poster
 figure: /images/papers/23_diffusion-explainer.gif
 caption: "With Diffusion Explainer, users can visually examine how (A) text prompt, e.g., “a cute and adorable bunny... pixar character”, is encoded by (B) the Text Representation Generator into vectors to guide (C) the Image Representation Refiner to iteratively refine the vector representation of the image being generated. (D) The Timestep Controller enables users to review the incremental improvements in image quality and adherence to the prompt over timesteps. (E) The final image representation is upscaled to a high-resolution image. Diffusion Explainer tightly integrates a visual overview of Stable Diffusion’s complex components with detailed explanations of their underlying operations, enabling users to fluidly transition between multiple levels of abstraction through animations and interactive elements."
 feature-title: "Diffusion Explainer: Visual Explanation for Text-to-image Stable Diffusion"
-feature-description: Seongmin Lee, Benjamin Hoover, Hendrik Strobelt, Zijie J. Wang, <b> ShengYun Peng </b>, <br> Austin Wright, Kevin Li, Haekyu Park, Haoyang Yang, Duen Horng Chau
+feature-description: Seongmin Lee, Benjamin Hoover, Hendrik Strobelt, Zijie J. Wang, <b> ShengYun Peng </b>, Austin Wright, Kevin Li, Haekyu Park, Haoyang Yang, Duen Horng Chau
 image: /images/featured/23_diffusion-explainer.png
 featured: false
 feature-order: 202305
