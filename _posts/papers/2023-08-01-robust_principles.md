@@ -27,8 +27,10 @@ feature-description: <b> ShengYun Peng </b>, Weilin Xu, Cory Cornelius, Matthew 
 image: /images/featured/23_robust-principles.png
 featured: true
 feature-order: 20230801
-award: "#1 on RobustBench CIFAR-10"
-award-link: https://robustbench.github.io/#div_cifar10_Linf_heading
+award: Best Poster Award
+award-link: /papers/award/23_robust-principles.pdf
+significance: "#1 on RobustBench CIFAR-10 Learderboard"
+significance-link: https://robustbench.github.io/#div_cifar10_Linf_heading
 code: https://github.com/poloclub/robust-principles
 selected: false
 type: conference
