@@ -23,7 +23,7 @@ featured: true
 feature-order: 20230930
 coming-soon: false
 award: Oral
-award-link: https://table-representation-learning.github.io/
+award-link: https://table-representation-learning.github.io/#accepted-papers
 code: https://github.com/poloclub/tsr-convstem
 selected: false
 type: workshop
