@@ -12,7 +12,7 @@ jsarr:
 
 <div style="height: 1rem"></div>
 <div>
-	My research focuses on the machine learning security of multimodal foundation models, developing generalizable principles for high-performance robust architectures. My work spans a wide range of application areas, including multi-task robust tracking in computer vision and document understanding with vision-language models.
+	My research interests include interpretability, robustness, and safety of vision-language models. My work spans a wide range of application areas, including multi-task robust tracking in computer vision and document understanding with vision-language models.
 </div>
 
 <div class="cv-spacer"></div>

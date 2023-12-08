@@ -26,7 +26,7 @@ title: Home
 		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div>
-		Hi, I'm Anthony. I'm a CS PhD at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/gatech.svg"> Georgia Tech working with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>. My research focuses on the machine learning security of multimodal foundation models, developing generalizable principles for high-performance robust architectures. 
+		Hi, I'm Anthony. I'm a CS PhD at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/gatech.svg"> Georgia Tech working with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>. My research interests include interpretability, robustness, and safety of vision-language models developing generalizable principles for high-performance robust architectures. 
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
