@@ -26,11 +26,13 @@ title: Home
 		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div>
-		Hi, I'm Anthony. I'm a CS PhD at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/gatech.svg"> Georgia Tech working with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>. My research interests include interpretability, robustness, and safety of vision-language models developing generalizable principles for high-performance robust architectures. 
+		Hi, I'm Anthony. I'm a CS PhD at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/gatech.svg"> Georgia Tech working with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>.
+		My research strengthens the <b>generalization</b> and <b>safety</b> of machine learning.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		My work spans a wide range of application areas, including multi-task robust tracking in computer vision and document understanding with vision-language models.
+		In my current work, I investigate the alignment and robustness of generative models, including LLMs and VLMs. Previously, on the generalization side, I designed a training framework for document and table understanding that unifies both the training paradigm and the training objective; on the safety side, I demonstrated consistent and marked improvements on adversarial robustness by developing a suite of generalizable robust architectural design principles.
+		<!-- My work spans a wide range of application areas, including multi-task robust tracking in computer vision and document understanding with vision-language models. -->
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
