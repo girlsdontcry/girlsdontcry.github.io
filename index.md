@@ -31,7 +31,7 @@ title: Home
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		In my current work, I investigate the alignment and robustness of generative models, including LLMs and VLMs. Previously, on the generalization side, I designed a training framework for document and table understanding that unifies both the training paradigm and the training objective; on the safety side, I demonstrated consistent and marked improvements on adversarial robustness by developing a suite of generalizable robust architectural design principles.
+		My current work creates next-generation generative AI models that are safe and generalizable, spanning LLMs and VLMs. Previously, my training framework unification research, fusing training paradigms and objectives, produces state-of-the-art (SOTA) first-of-its-kind generalizable approach for document and table understanding. My discovery of fundamental architectural design principles governing the adversarial robustness of deep learning models produces SOTA results (#1 on RobustBench CIFAR-10) and Best Poster Award at BMVC.
 		<!-- My work spans a wide range of application areas, including multi-task robust tracking in computer vision and document understanding with vision-language models. -->
 	</div>
 	<div style="height: 1rem"></div>
