@@ -1,3 +1,13 @@
+- title: "UniTable: Towards a Unified Table Foundation Model"
+  location: "ADP AI Community of Practice Meetup"
+  month: "Mar."
+  year: 2024
+
+- title: "Self-supervised Pre-training for Table Structure Recognition Transformer"
+  location: "AAAI 2024 Scientific Document Understanding Workshop"
+  month: "Feb."
+  year: 2024
+
 - title: "High-Performance Transformers for Table Structure Recognition Need Early Convolutions"
   location: "NeurIPS 2023 2nd Table Representation Workshop"
   month: "Dec."
