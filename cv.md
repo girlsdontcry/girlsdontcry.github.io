@@ -8,11 +8,9 @@ jsarr:
 
 <h1 id="cv-title"><a href="{{ site.url }}">ShengYun (Anthony) Peng</a></h1>
 
-<!-- <p id="cv-subtitle"><i>CS PhD (adversarial machine learning)</i></p> -->
-
 <div style="height: 1rem"></div>
 <div>
-	My research interests include interpretability, robustness, and safety of vision-language models. My work spans a wide range of application areas, including multi-task robust tracking in computer vision and document understanding with vision-language models.
+	My research strengthens the generalization and safety of the generative AI, spanning vision models, LLMs, and VLMs. As steps towards this goal, I work on generalizable multimodal representation learning and safe and robust machine learning models.
 </div>
 
 <div class="cv-spacer"></div>
@@ -71,19 +69,8 @@ jsarr:
 
 ## Publications
 
-<!-- ### Selected: Latest & Greatest
-
-{% assign selectedBoolForBibtex = true %}
-
-{% assign selected = site.categories.papers | where: 'selected', true %}
-{% for pub in selected %}
-{% include cv/publication.html pub=pub %}
-{% endfor %} -->
-
-<!-- ### All Publications -->
 
 {% assign selectedBoolForBibtex = false %}
-
 {% assign journal = site.categories.papers %}
 {% for pub in journal %}
 {% if pub.type != "misc" %}
