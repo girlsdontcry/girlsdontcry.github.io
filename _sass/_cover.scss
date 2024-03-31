@@ -44,7 +44,7 @@ $cover-width: 26.5px;
   padding: 0.5rem 1rem 1rem 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-grow: 1;
 }
 
@@ -101,17 +101,20 @@ $cover-width: 26.5px;
 }
 
 .cover-image {
-  width: 40%;
-  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 1rem;
 }
 
 .cover-image > a > img {
   border-radius: 1rem;
   border: 1px solid $black-05;
-  // padding: 0.25rem;
+  padding: 0.25rem;
   background-color: white;
-  max-height: 163px;
-  // max-width: 200px;
+  max-height: 280px;
+  max-width: 500px;
 }
 
 .cover-link {
