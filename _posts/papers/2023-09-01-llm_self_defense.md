@@ -12,11 +12,11 @@ image: /images/featured/23_llm-self-defense.png
 featured: true
 feature-order: 20230901
 coming-soon: false
-venue: arXiv
-year: 2023
+venue: ICLR Tiny Papers Track
+year: 2024
 award: 
 award-link:
-code: 
+code: https://github.com/poloclub/llm-self-defense
 
 title: "LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked"
 authors:
