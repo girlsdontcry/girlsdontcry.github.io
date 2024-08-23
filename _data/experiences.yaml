@@ -1,7 +1,7 @@
-- institution: Intel Corporation
+- institution: Intel
   location: "Hillsboro, OR"
-  position: Graduate ML Security Intern
-  group: Security Solution Lab
+  position: Research Scientist Intern
+  # group: Security Solution Lab
   year: "May 2022 — "
   year-extra: "Aug. 2022"
   mentors:
@@ -9,6 +9,20 @@
     - Jason Martin
   description: "Worked on DARPA Guaranteeing AI Robustness Against Deception (GARD) project; Investigated four key architectural components underpinning SOTA CNNs and Transformers that boost
 adversarial robustness."
+  institution-url: https://www.intel.com/content/www/us/en/homepage.html
+  group-url: https://www.intel.com/content/www/us/en/research/security-research.html
+  type: industry
+
+- institution: Meta
+  location: "Menlo Park, CA"
+  position: Research Scientist Intern
+  # group: Security Solution Lab
+  year: "May 2024 — "
+  year-extra: "Dec. 2024"
+  mentors:
+    - David Yang
+    - Kai Sheng Tai
+  description: "Efficient text embedding models via token merging"
   institution-url: https://www.intel.com/content/www/us/en/homepage.html
   group-url: https://www.intel.com/content/www/us/en/research/security-research.html
   type: industry
