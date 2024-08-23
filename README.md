@@ -3,7 +3,7 @@ I am ShengYun (Anthony) Peng, a CS PhD student [@Gatech](https://www.cc.gatech.e
 
 ### Quick start
 ``` bash
-$ bundle exec jekyll serve
+bundle exec jekyll serve
 ```
 
 All featured paper images should be resized to 2500 * 1650 background color: #F6F6F6
