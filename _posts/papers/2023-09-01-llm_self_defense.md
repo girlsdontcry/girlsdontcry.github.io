@@ -33,7 +33,7 @@ caption: "LLM SELF DEFENSE detects if the response to a user prompt is harmful. 
 
 
 selected: false
-type: misc
+type: conference
 doi: 
 bibtex: |-
 

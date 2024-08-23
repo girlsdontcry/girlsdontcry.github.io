@@ -1,7 +1,7 @@
 ---
 layout: paper
 categories: papers
-permalink: tsr-convstem
+permalink: papers/tsr-convstem
 id: tsr-convstem
 title: "High-Performance Transformers for Table Structure Recognition Need Early Convolutions"
 authors:
