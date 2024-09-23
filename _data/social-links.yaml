@@ -33,7 +33,7 @@
 - id: scholar
   description: "Google Scholar"
   color: "#515151"
-  class: "fa fa-graduation-cap icon"
+  class: "custom-google-scholar-icon"
   url: "https://scholar.google.com/citations?user=3557QYYAAAAJ&hl=en"
   on-homepage: true
   cv-group: 2
