@@ -6,10 +6,10 @@ title: Home
 <div id="intro-wrapper" class="l-middle">
 	<div id="intro-title-wrapper">
 		<div id="intro-image-wrapper">
-			<img id="intro-image" src="/images/2022-square.jpg"></div>
+			<img id="intro-image" src="/images/profile.png"></div>
 		<div id="intro-title-text-wrapper">
-			<h1 id="intro-title">Anthony ShengYun Peng</h1>
-			<div id="intro-subtitle">CS PhD at Georgia Tech</div>
+			<h1 id="intro-title">Peijun Qing</h1>
+			<div id="intro-subtitle">Ph.D. at Dartmouth College</div>
 			<div id="intro-title-socials">
 				{% for link in site.data.social-links %}
 					{% if link.on-homepage == true %}
@@ -26,7 +26,7 @@ title: Home
 		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div>
-		Hi, I'm Anthony, a CS PhD at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/gatech.svg"> Georgia Tech working with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>. My research strengthens the generalization and safety of the generative AI, spanning vision models, LLMs, and VLMs. As steps towards this goal, I work on:
+		Hi, I'm Peijun, a Ph.D. student in Computer Science at <a href="https://web.cs.dartmouth.edu/">Dartmouth College</a>, working with <a href="https://web.cs.dartmouth.edu/people/soroush-vosoughi/">Soroush Vosoughi</a>. My research strengthens the generalization and safety of the generative AI, spanning vision models, LLMs, and VLMs. As steps towards this goal, I work on:
 	</div>
 	<div style="height: 0.5rem"></div>
 	<div>
@@ -36,17 +36,6 @@ title: Home
 		<!-- My current work creates next-generation generative AI models that are safe and generalizable, spanning LLMs and VLMs. Previously, my training framework unification research, fusing training paradigms and objectives, produces state-of-the-art (SOTA) first-of-its-kind generalizable approach for document and table understanding. My discovery of fundamental architectural design principles governing the adversarial robustness of deep learning models produces SOTA results (#1 on RobustBench CIFAR-10) and Best Poster Award at BMVC. -->
 	</div>
 	<div style="height: 1rem"></div>
-	<div>
-		I am fortunate to have collaborated with researchers, developers, scientists, and engineers at 
-        <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/gatech.svg"> Georgia Tech, 
-		<img class="intro-logo" style="width: 28px; padding-bottom: 3px;" src="/images/ibm.png"> IBM, 
-        <img class="intro-logo" style="width: 33px; padding-bottom: 3px;" src="/images/intel.svg"> Intel Lab, 
-		<img class="intro-logo" style="width: 34px; padding-bottom: 3px;" src="/images/adp.png"> ADP, 
-        <img class="intro-logo" style="width: 24px; padding-bottom: 3px;" src="/images/ucla.svg"> UCLA, 
-        <img class="intro-logo" style="width: 20px; padding-bottom: 3px;" src="/images/tongji.svg"> Tongji,
-        <img class="intro-logo" style="width: 20px; padding-bottom: 3px;" src="/images/sjtu.png"> SJTU,
-        and <img class="intro-logo" style="width: 20px; padding-bottom: 3px;" src="/images/fudan.svg"> Fudan.
-	</div>
 </div>
 
 
