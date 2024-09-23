@@ -82,6 +82,18 @@ $cv-icon-aspect-ratio: 1.33;
 	margin-right: 0.5rem
 }
 
+
+
+.custom-google-scholar-icon {
+  background-image: url('/images/icons8-google-scholar.svg');
+  background-size: cover; /* Adjust size as needed */
+  width: 24px; /* Adjust width as needed */
+  height: 24px; /* Adjust height as needed */
+  display: inline-block; /* Aligns it similar to other icons */
+  /* Add additional styles as needed */
+}
+
+
 #intro-cv-wrapper {
 	background-color: $intro-blue;
 	border-radius: 0.5rem;
